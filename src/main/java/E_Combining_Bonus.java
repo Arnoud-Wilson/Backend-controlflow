@@ -12,20 +12,27 @@ public class E_Combining_Bonus {
     // Combination 1
     //
     // implementeer een forloop die alle even nummers print. Je gebruikt hiervoor ook een if statement
+    for (int i = 0; i < numbers.length; i++) {
+      if (numbers[i] % 2 == 0) {
+        System.out.println(numbers[i]);
+      }
+    }
 
 
 
     //
     // Combination 2
     //
-    // Implementeer een whileloop de nummers in de lijst optelt tot het resultaat groter is dan 400. Bonus, zorg ook dat de index nooit groter kan worden dan de lengte van de array.
+    // Implementeer een whileloop die nummers in de lijst optelt tot het resultaat groter is dan 400. Bonus, zorg ook dat de index nooit groter kan worden dan de lengte van de array.
     // Je hebt ook een index nodig voor de array (int index = 0;) en een accumulator voor het resultaat (int result = 0;). Deze index en accumulator kun je in de while loop muteren.
 
     int index = 0;
     int accumulator = 0;
     //add while
-
-    System.out.println(accumulator);
-
+    while (accumulator <= 400) {
+      System.out.println(accumulator++);
+    }
   }
 }
+
+//Begrijp de vraag van de bonus Combination 2 opdracht helemaal niet....
